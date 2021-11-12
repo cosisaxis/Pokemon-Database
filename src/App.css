@@ -1,0 +1,70 @@
+.App{
+  display: flex;
+  justify-content:center ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; 
+  flex-direction: column ;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: #161E54;
+}
+
+.TitleSection{
+  
+  width: 100%;
+  height: 200;
+  color: #88E0EF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TitleSection input{
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.TitleSection button{
+  width: 180px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px ;
+  font-size: 20px;
+  background-color: #88E0EF ;
+  padding-left: 10px;
+  font-weight: bolder;
+  color: #161E54;
+
+}
+.TitleSection button:hover{
+  background-color: #FF5151;
+  color: #FF9B6A;
+  cursor: pointer;
+  border: 1px;
+}
+.DisplaySection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:  #88E0EF;
+  
+}
+.DisplaySection h1{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.DisplaySection h3{
+  margin: 5px ;
+}
+.DisplaySection img{
+  width: 200px;
+  margin-bottom: 5px;
+}
